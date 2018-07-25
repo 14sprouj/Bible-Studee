@@ -17,3 +17,7 @@
       h5 {
         font-family: "Arial", sans-serif
       }
+	  
+	  table {
+		  border-collapse: collapse;
+		  }
