@@ -1,14 +1,4 @@
-.ulist, .ulist ulist {
-  list-style: none;
-  text-decoration: none;
-}
-
-.ulist list.h:before {
-  content: "\2713";
-} /*Site History lists */
-
-
-ul {
+hul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -16,11 +6,11 @@ ul {
     background-color: #333;
 }
 
-li {
+hli {
     float: left;
 }
 
-li a, .dropbtn {
+hli a, .dropbtn {
     display: inline-block;
     color: white;
     text-align: center;
@@ -28,11 +18,11 @@ li a, .dropbtn {
     text-decoration: none;
 }
 
-li a:hover, .dropdown:hover .dropbtn {
+hli a:hover, .dropdown:hover .dropbtn {
     background-color: red;
 }
 
-li.dropdown {
+hli.dropdown {
     display: inline-block;
 }
 

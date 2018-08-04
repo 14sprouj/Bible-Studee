@@ -1,0 +1,20 @@
+{
+  "projectId": "1xEDo_OEvj1K_3zsmV0ESOOoXYzcuFM0i",
+  "htmlFiles": [
+    {
+      "fileId": "1Dr-C1v4csiLVBt0-KcR-x_GbTyEBG_tq",
+      "contentType": "text/html",
+      "name": "index.html",
+      "path": "1xEDo_OEvj1K_3zsmV0ESOOoXYzcuFM0i"
+    }
+  ],
+  "cssFiles": [
+    {
+      "fileId": "1aRzxW7gw7xQs1Fz37_b_XF4vP3ZiJ4Ks",
+      "contentType": "text/css",
+      "name": "style.css",
+      "path": "1xEDo_OEvj1K_3zsmV0ESOOoXYzcuFM0i"
+    }
+  ],
+  "javascriptFiles": []
+}
