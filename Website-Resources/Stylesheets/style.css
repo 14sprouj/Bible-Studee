@@ -78,11 +78,12 @@ redtext {
 }
 
 .bible {
-    border-left: 6pt solid green;
+    border-left: 4pt solid green;
     background-color: #ccffbf;
+padding: 10
 }
 .quote {
-    border-left: 6pt solid yellow;
+    border-left: 4pt solid yellow;
     background-color: #fffbbf;
 }
 
@@ -104,7 +105,7 @@ redtext {
     border-radius: 6px;
     padding: 5px 0;
     /* Position the tooltip */
-    position: absolute;
+    position: top;
     z-index: 1;
 }
 
