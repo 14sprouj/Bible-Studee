@@ -6,8 +6,7 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <link rel="stylesheet" href="Stylesheets/Bible Studee.css">
-<link rel="stylesheet" href="Stylesheets/SEC Sermons CSS.css">
-<link rel="stylesheet" href="Stylesheets/Style.css">
+<link rel="stylesheet" href="Stylesheets/style.css">
 <link rel="stylesheet" href="Stylesheets/Navigation.css">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
@@ -18,17 +17,13 @@
 <header class="w3-container w3-center w3-padding-32"> 
   <h1><b>Bible Studee</b></h1>
   <p id="tagline">Your aid to learning the Bible</p>
-  <div class="w3-bar w3-black">
+  <div class="w3-bar w3-black" style="width:100%; overflow:hidden; height:44px">
+  <div style="overflow:auto;">
   <a href="home.html" style=background-color:#ff0000 class="w3-bar-item w3-button w3-green">Home</a>
   <a href="about.html" class="w3-bar-item w3-button">About Us</a>
+  <a href="blog.html" class="w3-bar-item w3-button">My Blog</a>
   <a href="resources.html" class="w3-bar-item w3-button">Resources</a>
-  <div class="dropdown-content">
-      <a href="Clocks and Timers.html">Clocks & Timers</a>
-      <!--
-	  <a href="#">link 2</a>
-      <a href="#">link 3</a>
-	  -->
-    </div>
+	</div>
   </div>
 </header>
 
@@ -49,7 +44,7 @@
       <p>This website aims to allow you to read God's word in a way you may not have before. <a href="about.html">Read more here</a>.</p>
       <div class="w3-row">
         <div class="w3-col m8 s12">
-          <p><button class="w3-button w3-padding-large w3-white w3-border"><b>READ MORE »</b></button></p>
+          <p><button class="w3-button w3-padding-large w3-white w3-border" a href="about.html"><b>READ MORE »</b></button></p>
         </div>
       </div>
     </div>
@@ -83,7 +78,7 @@
   <div class="w3-card-4 w3-margin w3-white">
   <img src="Images/Psalms.jpg" alt="Psalms" style="width:80%" style="justify:middle">
     <div class="w3-container">
-      <h3><b>Psalm 4</b></h3>
+      <h3 id="Psalm4"><b>Psalm 4</b></h3>
       <h5>Title description, <span class="w3-opacity">4<sup>th</sup> July 2018</span></h5>
     </div>
 
@@ -107,17 +102,17 @@
 <div class="w3-col l4">
   <!-- About Card -->
   <div class="w3-card w3-margin w3-margin-top">
-  <img src="/w3images/avatar_g.jpg" style="width:100%" alt="Us">
     <div class="w3-container w3-white">
       <h4><b>What we do</b></h4>
       <p>We feel the neeed to follow Jesus' commandment to share his <strike>good</strike> awesome news. See more about us and our story <a href="Bible Studee about.html">here</a>.</p>
     </div>
   </div><hr>
-  
-  <!-- Posts -->
+ 
+ 
+  <!-- Complete and show this code 
   <div class="w3-card w3-margin">
     <div class="w3-container w3-padding">
-      <h4>Popular Posts</h4>
+      <h4>Latest Posts</h4>
     </div>
     <ul class="w3-ul w3-hoverable w3-white">
       <li class="w3-padding-16">
@@ -131,7 +126,7 @@
         <span>Praes tinci sed</span>
       </li>   
     </ul>
-  </div>
+  </div>-->
   <hr> 
  
   <!-- Labels / tags -->
@@ -141,7 +136,10 @@
     </div>
     <div class="w3-container w3-white">
     <p> 
-	<span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Genesis</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Psalms</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom"><a href="tags/isaiah.html">Isaiah</a></span>
+	<span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Genesis</span> 
+	<span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Psalms</span> 
+	<span class="w3-tag w3-light-grey w3-small w3-margin-bottom"><a href="tags/isaiah.html">Isaiah</a></span>
+	<span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Death &amp; the Afterlife</span>
     </p>
     </div>
   </div>
@@ -153,7 +151,6 @@
 </div><br>
 
 <!-- END w3-content -->
-</div>
 
 <!-- Footer -->
 <footer class="w3-container w3-dark-grey w3-padding-32 w3-margin-top">
