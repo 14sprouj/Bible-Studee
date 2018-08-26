@@ -1,0 +1,390 @@
+{
+  "appSettings": {
+    "url": "1DdoAChjqn3A_PTpYaUeYse6mh9SQRMFU",
+    "theme": "red-orange",
+    "image": "https://www.ultradox.com/images/abstract.jpg",
+    "enabled": true,
+    "loginRequired": true,
+    "restricted": false
+  },
+  "repeatValue": 0,
+  "changeId": 0,
+  "items": [
+    {
+      "fileId": "1sJK7ZN2fCVwpp1AzIBc9Ef0hIpNMUfpj1OvMFhdY3ao",
+      "formDefinition": {
+        "name": "Report an issue",
+        "description": "If you have found an issue or bug in Bible Studee, please describe it in full detail below. Please note your email address  is automatically collected so we can contact you if we need more information.",
+        "fields": [
+          {
+            "name": "responseTimestamp",
+            "prompt": "Enter the timestamp",
+            "searchable": false,
+            "required": false,
+            "enabled": false,
+            "editable": false,
+            "type": "date"
+          },
+          {
+            "maxlength": 0,
+            "name": "respondentEmail",
+            "prompt": "Enter respondent email",
+            "searchable": false,
+            "required": true,
+            "enabled": true,
+            "editable": false,
+            "placeholder": "someone@yourdomain.com",
+            "type": "string"
+          },
+          {
+            "maxlength": 0,
+            "name": "editResponseUrl",
+            "prompt": "Enter URL to edit responses",
+            "searchable": false,
+            "required": false,
+            "enabled": false,
+            "editable": false,
+            "placeholder": "https://linktoresponses.com",
+            "type": "string"
+          },
+          {
+            "maxlength": 0,
+            "id": "1633920210",
+            "name": "name",
+            "prompt": "Name",
+            "helpText": "",
+            "searchable": false,
+            "required": true,
+            "enabled": true,
+            "editable": false,
+            "type": "string"
+          },
+          {
+            "maxlength": 0,
+            "id": "1770822543",
+            "name": "phonenumber",
+            "prompt": "Phone number",
+            "helpText": "",
+            "searchable": false,
+            "required": false,
+            "enabled": true,
+            "editable": false,
+            "type": "string"
+          },
+          {
+            "cols": 80,
+            "rows": 6,
+            "maxlength": 0,
+            "id": "1846923513",
+            "name": "comments",
+            "prompt": "Comments",
+            "helpText": "",
+            "searchable": false,
+            "required": true,
+            "enabled": true,
+            "editable": false,
+            "type": "text"
+          }
+        ]
+      },
+      "parameters": [
+        {
+          "name": "respondentEmail",
+          "value": "sproj003@gmail.com"
+        },
+        {
+          "name": "name",
+          "value": "Joel"
+        },
+        {
+          "name": "phonenumber",
+          "value": "02086529856"
+        },
+        {
+          "name": "comments",
+          "value": "nkjisvcnkio gtefmko\ntext"
+        }
+      ],
+      "action": "LOAD_GOOGLE_FORM",
+      "editable": false,
+      "authorized": true,
+      "uiEnabled": false,
+      "id": "t3dZVkbSkNcD4ROhMouE33788968",
+      "name": "Contact Information",
+      "inputVariables": [],
+      "outputVariables": [
+        {
+          "name": "responseTimestamp",
+          "prompt": "Enter the timestamp",
+          "format": "DATE",
+          "required": false
+        },
+        {
+          "name": "respondentEmail",
+          "description": "someone@yourdomain.com",
+          "prompt": "Enter respondent email",
+          "placeholder": "someone@yourdomain.com",
+          "format": "STRING",
+          "required": false
+        },
+        {
+          "name": "editResponseUrl",
+          "description": "https://linktoresponses.com",
+          "prompt": "Enter URL to edit responses",
+          "placeholder": "https://linktoresponses.com",
+          "format": "STRING",
+          "required": false
+        },
+        {
+          "name": "name",
+          "prompt": "Name",
+          "format": "STRING",
+          "required": false
+        },
+        {
+          "name": "phonenumber",
+          "prompt": "Phone number",
+          "format": "STRING",
+          "required": false
+        },
+        {
+          "name": "comments",
+          "prompt": "Comments",
+          "format": "TEXT",
+          "required": false
+        },
+        {
+          "name": "formDefinition",
+          "description": "Contains the structure of the form",
+          "format": "FORM",
+          "required": false
+        }
+      ],
+      "enabled": true,
+      "type": "form"
+    },
+    {
+      "fileId": "1w4jGjA7rl0U8eCD8U_OWHg9G4MSWC_eyzQETulhN334",
+      "batchWorksheet": "Recipients",
+      "values": "Full Name,${name},AUTO;Email Address,${respondentEmail},AUTO;Status,,AUTO;Timestamp,${now\\;datetime(op\u003ddd MMMM yyyy hh:mm:ss)},AUTO;Column D,;Column E,;Column F,;Column G,;Column H,;Column I,",
+      "valueFormat": "UNFORMATTED_VALUE",
+      "headerRow": 1,
+      "minRow": 2,
+      "maxRow": 999,
+      "authorized": true,
+      "reverse": false,
+      "action": "INSERT",
+      "uiMultiselect": false,
+      "uiEnabled": false,
+      "id": "HALpniPwONLu6Gsv6H6K37814905",
+      "name": "BS Contact Form Response Recipients",
+      "inputVariables": [
+        {
+          "name": "fileId",
+          "description": "Use this variable to dynamically load a file by its Google Drive file id",
+          "pattern": "provider\u003dgoogleDrive;mimeType\u003dapplication/vnd.google-apps.spreadsheet",
+          "format": "FILE_ID",
+          "required": false
+        }
+      ],
+      "outputVariables": [
+        {
+          "name": "rowNumber",
+          "description": "Row number as specified in worksheet Recipients",
+          "format": "INTEGER",
+          "required": false
+        }
+      ],
+      "enabled": true,
+      "type": "spreadsheet"
+    },
+    {
+      "targetUrl": "http://web.ultradox.com/public/unsubscribed.html",
+      "actionUrl": "https://www.ultradox.com/run/MLt1MFIw11XBYOlWUpfn4cLYObn9i3?iid\u003doOpggSVaa4aKsykraXr334045121\u0026status\u003dAbgemeldet\u0026rowNumber\u003d${rowId}\u0026contactId\u003d${contactId}",
+      "analyticsType": "NONE",
+      "id": "Gs26I4WtdxeEjdzvRHJy34044568",
+      "name": "unsubscribe",
+      "inputVariables": [
+        {
+          "name": "rowId",
+          "description": "This variable is required to construct the SmartLink unsubscribe",
+          "prompt": "rowId",
+          "format": "ANY",
+          "required": false
+        },
+        {
+          "name": "contactId",
+          "description": "This variable is required to construct the SmartLink unsubscribe",
+          "prompt": "contactId",
+          "format": "ANY",
+          "required": false
+        }
+      ],
+      "outputVariables": [
+        {
+          "name": "unsubscribe",
+          "description": "SmartLink to http://web.ultradox.com/public/unsubscribed.html",
+          "format": "URL",
+          "required": false
+        }
+      ],
+      "enabled": true,
+      "type": "link"
+    },
+    {
+      "fileId": "1Yu0AiMdZv9JxtcJmJvpZyHg4r0ghJGb5RC8TWjG1UGQ",
+      "authorized": true,
+      "inputFormat": "GOOGLE_DOCS",
+      "outputFormat": "HTML",
+      "uiMultiselect": false,
+      "uiEnabled": false,
+      "id": "Dsv16MbHcaPwtpxUQx8y33890266",
+      "name": "Contact Form Response Template",
+      "inputVariables": [],
+      "outputVariables": [
+        {
+          "name": "filename",
+          "description": "Contains the name of the template used for the merge",
+          "format": "STRING",
+          "required": false
+        },
+        {
+          "name": "description",
+          "description": "Contains the description of the file",
+          "format": "STRING",
+          "required": false
+        },
+        {
+          "name": "file",
+          "description": "Contains the merged document",
+          "pattern": "mimeType\u003dtext/html",
+          "format": "BINARY",
+          "required": false
+        },
+        {
+          "name": "mimeType",
+          "description": "Contains the type of the merged document (e.g. text/html)",
+          "format": "STRING",
+          "required": false
+        }
+      ],
+      "enabled": true,
+      "type": "template"
+    },
+    {
+      "html": true,
+      "sourceId": "Dsv16MbHcaPwtpxUQx8y33890266",
+      "sender": "ag9zfmZsb3JleXNvZnR1ZHhyGQsSDEVtYWlsQWNjb3VudBiAgLD-tfmOCAw",
+      "to": "${respondentEmail}",
+      "cc": "",
+      "bcc": "",
+      "subject": "Contact Form Response",
+      "body": "Dear ${name},\n\n\nKind regards",
+      "openActionUrl": "https://www.ultradox.com/run/MLt1MFIw11XBYOlWUpfn4cLYObn9i3?iid\u003d5qq2ix6oQMSEvSgeDmTL34044797\u0026status\u003dGe�ffnet\u0026rowNumber\u003d${rowId}\u0026contactId\u003d${contactId}",
+      "deliveryActionUrl": "https://www.ultradox.com/run/MLt1MFIw11XBYOlWUpfn4cLYObn9i3?iid\u003d5qq2ix6oQMSEvSgeDmTL34044797\u0026status\u003dZugestellt\u0026rowNumber\u003d${rowId}\u0026contactId\u003d${contactId}",
+      "bounceActionUrl": "https://www.ultradox.com/run/MLt1MFIw11XBYOlWUpfn4cLYObn9i3?iid\u003doOpggSVaa4aKsykraXr334045121\u0026status\u003dUnzustellbar\u0026rowNumber\u003d${rowId}\u0026contactId\u003d${contactId}",
+      "complaintActionUrl": "https://www.ultradox.com/run/MLt1MFIw11XBYOlWUpfn4cLYObn9i3?iid\u003doOpggSVaa4aKsykraXr334045121\u0026status\u003dBeschwerde\u0026rowNumber\u003d${rowId}\u0026contactId\u003d${contactId}",
+      "attachments": [],
+      "authorized": true,
+      "id": "nwI4NQ2nckBps8yb09bz33789064",
+      "name": "respondentEmail",
+      "inputVariables": [
+        {
+          "name": "sendFrom",
+          "description": "Provide the name of the email account to select the sender based on this variable",
+          "prompt": "Sender",
+          "pattern": "text/plain",
+          "format": "STRING",
+          "required": true
+        },
+        {
+          "name": "file",
+          "description": "Sets the content of the HTML email body",
+          "prompt": "Content",
+          "pattern": "text/html",
+          "format": "BINARY",
+          "required": true
+        },
+        {
+          "name": "respondentEmail",
+          "description": "This placeholder respondentEmail is used in the to field of the email",
+          "prompt": "respondentEmail",
+          "format": "ANY",
+          "required": false
+        },
+        {
+          "name": "rowId",
+          "description": "This placeholder rowId is used in the delivery action URL field of the email",
+          "prompt": "rowId",
+          "format": "ANY",
+          "required": false
+        },
+        {
+          "name": "contactId",
+          "description": "This placeholder rowId is used in the delivery action URL field of the email",
+          "prompt": "contactId",
+          "format": "ANY",
+          "required": false
+        }
+      ],
+      "outputVariables": [
+        {
+          "name": "messageId",
+          "description": "The placeholder messageId contains the message ID of the email that has been sent",
+          "format": "STRING",
+          "required": false
+        }
+      ],
+      "enabled": true,
+      "type": "email"
+    },
+    {
+      "action": "STOP",
+      "step": 0,
+      "uiEnabled": false,
+      "id": "aDxZ6MhbaUEMQZMvMlSm34045025",
+      "name": "Stop",
+      "enabled": true,
+      "type": "core"
+    }
+  ],
+  "itemStates": {
+    "aDxZ6MhbaUEMQZMvMlSm34045025": {
+      "height": 150,
+      "breakpoint": 0,
+      "open": false,
+      "collapsed": false
+    },
+    "Dsv16MbHcaPwtpxUQx8y33890266": {
+      "height": 150,
+      "breakpoint": 0,
+      "open": true,
+      "collapsed": false
+    },
+    "Gs26I4WtdxeEjdzvRHJy34044568": {
+      "height": 150,
+      "breakpoint": 0,
+      "open": true,
+      "collapsed": false
+    },
+    "HALpniPwONLu6Gsv6H6K37814905": {
+      "height": 150,
+      "breakpoint": 0,
+      "open": true,
+      "collapsed": false
+    },
+    "t3dZVkbSkNcD4ROhMouE33788968": {
+      "height": 150,
+      "breakpoint": 0,
+      "open": true,
+      "collapsed": false
+    },
+    "nwI4NQ2nckBps8yb09bz33789064": {
+      "height": 150,
+      "breakpoint": 0,
+      "open": true,
+      "collapsed": false
+    }
+  },
+  "testMailEnabled": false
+}

@@ -1,0 +1,44 @@
+{
+  "projectId": "1pub83D0lNXmzMQgE-xNfQhqeWfT0_5OQ",
+  "htmlFiles": [
+    {
+      "fileId": "1cRfMkHo7U0F3IkyoBJkGopHXioXQ2A8c",
+      "contentType": "text/html",
+      "name": "about.html",
+      "path": "1pub83D0lNXmzMQgE-xNfQhqeWfT0_5OQ"
+    },
+    {
+      "fileId": "1XMOpxzyDpZ9MxsV3mbyA4JFAVRO12_et",
+      "contentType": "text/html",
+      "name": "resources.html",
+      "path": "1pub83D0lNXmzMQgE-xNfQhqeWfT0_5OQ"
+    },
+    {
+      "fileId": "1lPDpuEvb6MwtyXM0pwLy4gTpJE_uctsJ",
+      "contentType": "text/html",
+      "name": "isaiah.html",
+      "path": "1pub83D0lNXmzMQgE-xNfQhqeWfT0_5OQ/tags"
+    },
+    {
+      "fileId": "1VTiodt6feWIbNbXhwxiifpsLBLTa3_5V",
+      "contentType": "text/html",
+      "name": "blog.html",
+      "path": "1pub83D0lNXmzMQgE-xNfQhqeWfT0_5OQ"
+    },
+    {
+      "fileId": "1ReavdrBsCR1mF7_nEUGBZ_sL94NbhUiV",
+      "contentType": "text/html",
+      "name": "home.html",
+      "path": "1pub83D0lNXmzMQgE-xNfQhqeWfT0_5OQ"
+    }
+  ],
+  "cssFiles": [
+    {
+      "fileId": "1TNoOw5hOn2_0HqXY-DhkcXrevT4LIvWP",
+      "contentType": "text/css",
+      "name": "style.css",
+      "path": "1pub83D0lNXmzMQgE-xNfQhqeWfT0_5OQ"
+    }
+  ],
+  "javascriptFiles": []
+}

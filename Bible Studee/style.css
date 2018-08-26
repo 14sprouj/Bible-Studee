@@ -1,0 +1,92 @@
+h1 {
+    color: red;
+    font-family:"Arial", sans-serif
+}
+p:tagline {
+    font: 14px
+}
+h5 {
+    font: 12px;
+    font-family:"Arial", sans-serif
+}
+h4 {
+    font-style: oblique;
+    font-family:"Arial", sans-serif;
+}
+body, h2, h3 {
+    font-family:"Arial", sans-serif;
+}
+table {
+    border-collapse: collapse;
+}
+yellow {
+    background-color: #FFFF00;
+}
+pink {
+    background-color: #ff00f0;
+}
+orange {
+    background-color: #ff8c1a
+}
+green {
+    background-color: #4dff4d
+}
+blue {
+    background-color: #4dd2ff
+}
+.shown {
+    color:blue;
+}
+.dotted {
+    border-style: dotted;
+}
+.dashed {
+    border-style: dashed;
+}
+.solid {
+    border-style: solid;
+}
+.double {
+    border-style: double;
+}
+.groove {
+    border-style: groove;
+}
+.ridge {
+    border-style: ridge;
+}
+.inset {
+    border-style: inset;
+}
+.outset {
+    border-style: outset;
+}
+.none {
+    border-style: none;
+}
+.hidden {
+    border-style: hidden;
+}
+.mix {
+    border-style: dotted dashed solid double;
+}
+.grey {
+    color:grey;
+}
+redtext {
+	color:red;
+}
+
+bible {
+    border-left: 6pt solid green;
+    background-color: #ccffbf;
+}
+quote {
+    border-left: 6pt solid yellow;
+    background-color: #fffbbf;
+}
+
+prayer {
+    border-left: 4pt solid red;
+    background-color: #ff8a8a;
+}

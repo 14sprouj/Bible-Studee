@@ -1,0 +1,73 @@
+h1 {
+   color: red
+ }
+
+ p:tagline {
+   font: 14px
+ }
+
+ h5 {
+   font: 12px
+ }
+
+ h4 {
+   font-style: bold;
+ }
+
+ body,
+ h1,
+ h2,
+ h3,
+ h4,
+ h5 {
+   font-family: "Arial", sans-serif
+ }
+
+ table {
+   border-collapse: collapse;
+ }
+
+
+ yellow {
+   background-color: #FFFF00;
+ }
+
+ pink {
+   background-color: #ff4dd2;
+ }
+
+ orange {
+	 background-color: #ff8c1a
+ }
+ 
+ green {
+   background-color: #4dff4d
+ }
+
+ blue {
+   background-color: #4dd2ff
+ }
+
+a.shown {color:blue;}
+ 
+p.dotted {border-style: dotted;}
+p.dashed {border-style: dashed;}
+p.solid {border-style: solid;}
+p.double {border-style: double;}
+p.groove {border-style: groove;}
+p.ridge {border-style: ridge;}
+p.inset {border-style: inset;}
+p.outset {border-style: outset;}
+p.none {border-style: none;}
+p.hidden {border-style: hidden;}
+p.mix {border-style: dotted dashed solid double;}
+
+bible {
+    border-left: 6px solid green;
+    background-color: #ccffbf;
+}
+
+quote {
+	border-left: 6px solid yellow;
+    background-color: #fffbbf;
+}

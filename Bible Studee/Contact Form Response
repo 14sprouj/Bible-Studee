@@ -1,0 +1,173 @@
+{
+  "appSettings": {
+    "enabled": false,
+    "loginRequired": false,
+    "restricted": false
+  },
+  "repeatValue": 0,
+  "changeId": 0,
+  "items": [
+    {
+      "fileId": "1sJK7ZN2fCVwpp1AzIBc9Ef0hIpNMUfpj1OvMFhdY3ao",
+      "formDefinition": {
+        "name": "Report an issue",
+        "description": "",
+        "fields": [
+          {
+            "name": "responseTimestamp",
+            "prompt": "Enter the timestamp",
+            "searchable": false,
+            "required": false,
+            "enabled": false,
+            "editable": false,
+            "type": "date"
+          },
+          {
+            "maxlength": 0,
+            "name": "respondentEmail",
+            "prompt": "Enter respondent email",
+            "searchable": false,
+            "required": true,
+            "enabled": true,
+            "editable": false,
+            "placeholder": "someone@yourdomain.com",
+            "type": "string"
+          },
+          {
+            "maxlength": 0,
+            "name": "editResponseUrl",
+            "prompt": "Enter URL to edit responses",
+            "searchable": false,
+            "required": false,
+            "enabled": false,
+            "editable": false,
+            "placeholder": "https://linktoresponses.com",
+            "type": "string"
+          },
+          {
+            "maxlength": 0,
+            "id": "1633920210",
+            "name": "name",
+            "prompt": "Name",
+            "helpText": "",
+            "searchable": false,
+            "required": true,
+            "enabled": true,
+            "editable": false,
+            "type": "string"
+          },
+          {
+            "maxlength": 0,
+            "id": "227649005",
+            "name": "email",
+            "prompt": "Email",
+            "helpText": "We may contact you to ask for more information",
+            "searchable": false,
+            "required": true,
+            "enabled": true,
+            "editable": false,
+            "type": "string"
+          },
+          {
+            "maxlength": 0,
+            "id": "1770822543",
+            "name": "phonenumber",
+            "prompt": "Phone number",
+            "helpText": "",
+            "searchable": false,
+            "required": false,
+            "enabled": true,
+            "editable": false,
+            "type": "string"
+          },
+          {
+            "cols": 80,
+            "rows": 6,
+            "maxlength": 0,
+            "id": "1846923513",
+            "name": "comments",
+            "prompt": "Comments",
+            "helpText": "",
+            "searchable": false,
+            "required": true,
+            "enabled": true,
+            "editable": false,
+            "type": "text"
+          }
+        ]
+      },
+      "action": "LOAD_GOOGLE_FORM",
+      "editable": false,
+      "authorized": true,
+      "uiEnabled": false,
+      "id": "AXLQQc53mWyXbFiLJUZ433602810",
+      "name": "Contact Information",
+      "inputVariables": [],
+      "outputVariables": [
+        {
+          "name": "responseTimestamp",
+          "prompt": "Enter the timestamp",
+          "format": "DATE",
+          "required": false
+        },
+        {
+          "name": "respondentEmail",
+          "description": "someone@yourdomain.com",
+          "prompt": "Enter respondent email",
+          "placeholder": "someone@yourdomain.com",
+          "format": "STRING",
+          "required": false
+        },
+        {
+          "name": "editResponseUrl",
+          "description": "https://linktoresponses.com",
+          "prompt": "Enter URL to edit responses",
+          "placeholder": "https://linktoresponses.com",
+          "format": "STRING",
+          "required": false
+        },
+        {
+          "name": "name",
+          "prompt": "Name",
+          "format": "STRING",
+          "required": false
+        },
+        {
+          "name": "email",
+          "prompt": "Email",
+          "format": "STRING",
+          "required": false
+        },
+        {
+          "name": "phonenumber",
+          "prompt": "Phone number",
+          "format": "STRING",
+          "required": false
+        },
+        {
+          "name": "comments",
+          "prompt": "Comments",
+          "format": "TEXT",
+          "required": false
+        },
+        {
+          "name": "formDefinition",
+          "description": "Contains the structure of the form",
+          "format": "FORM",
+          "required": false
+        }
+      ],
+      "enabled": true,
+      "type": "form"
+    }
+  ],
+  "itemStates": {
+    "AXLQQc53mWyXbFiLJUZ433602810": {
+      "height": 150,
+      "breakpoint": 0,
+      "open": true,
+      "collapsed": false
+    }
+  },
+  "testMailEnabled": false
+}
